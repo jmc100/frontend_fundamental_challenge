@@ -3,15 +3,35 @@ body {
   font-size: 16px;
 }
 
-.box {
-  border-collapse: collapse;
-  width: 100%;
+caption {
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-align: left;
 }
 
-.statusBar {
-  background-color: #284170;
-  height: 24px;
-  width: 360px;
+caption.normal {
+  background-color: #0069D8;
+  color: #FFFFFF;
+}
+
+caption.reroute {
+  background-color: #FC4141;
+  color: #FFFFFF;
+}
+
+caption.out {
+  background-color: #CDCCCC;
+}
+
+h3 {
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  padding-top: 23px;
+  padding-left: 55px;
 }
 
 img.icons.battery {
@@ -54,24 +74,13 @@ img.icons_2.menu {
   width: 18px;
 }
 
-h3 {
-  color: white;
-  font-size: 17px;
-  text-align: left;
-  padding-top: 23px;
-  padding-left: 55px;
-}
-
-.time {
-  color: white;
-  padding: 4px;
-  text-align: right;
-}
-
-.appBar {
-  background-color: #385999;
-  height: 64px;
-  width: 360px;
+section {
+  box-shadow: 0px 2px 8px #A9A9A9;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 td, th {
@@ -88,34 +97,26 @@ th {
   font-weight: bold;
 }
 
-caption {
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-top: 5px;
-  text-align: left;
+.box {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-caption.normal {
-  background-color: #0069D8;
-  color: #FFFFFF;
+.statusBar {
+  background-color: #284170;
+  height: 24px;
+  width: 360px;
 }
 
-caption.reroute {
-  background-color: #FC4141;
-  color: #FFFFFF;
+.time {
+  color: white;
+  padding: 4px;
+  text-align: right;
 }
 
-caption.out {
-  background-color: #CDCCCC;
+.appBar {
+  background-color: #385999;
+  height: 64px;
+  width: 360px;
 }
 
-section {
-  box-shadow: 0px 2px 8px #A9A9A9;
-  box-sizing: border-box;
-  margin-top: 15px;
-  margin-bottom: 25px;
-  margin-left: 5px;
-  margin-right: 5px;
-}
