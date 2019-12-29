@@ -1,34 +1,12 @@
 body {
   font-family: 'Roboto';
-  font-size: 16px;
-}
-
-caption {
-  font-size: 18px;
-  letter-spacing: 1px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-top: 5px;
-  text-align: left;
-}
-
-caption.normal {
-  background-color: #0069D8;
-  color: #FFFFFF;
-}
-
-caption.reroute {
-  background-color: #FC4141;
-  color: #FFFFFF;
-}
-
-caption.out {
-  background-color: #CDCCCC;
+  font-size: 17px;
+  line-height: 22px;
 }
 
 h3 {
   color: white;
-  font-size: 17px;
+  font-size: 20px;
   text-align: left;
   padding-top: 23px;
   padding-left: 55px;
@@ -88,18 +66,76 @@ td, th {
   text-align: left;
 }
 
-tr.info:hover {
-  background-color: #FEF154;
-}
-
 th {
   border-bottom: 1px solid #E2E2E2;
   font-weight: bold;
 }
 
-.box {
-  border-collapse: collapse;
-  width: 100%;
+.appBar {
+  background-color: #385999;
+  height: 64px;
+  width: 360px;
+}
+
+.circle {
+  display: inline-block;
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.destination {
+  font-weight: bold;
+}
+
+.fare {
+  vertical-align: bottom;
+}
+
+.green {
+  background-color: #3CAD07;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.normal {
+  background-color: #0069D8;
+  color: #FFFFFF;
+}
+
+.number {
+  color: #FFFFFF;
+  font-size: 23px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.out {
+  background-color: #CDCCCC;
+}
+
+.red {
+  background-color: #FC3104;
+}
+
+.reroute {
+  background-color: #FC4141;
+  color: #FFFFFF;
+}
+
+.square {
+  height: 40px;
+  width: 50px;
+  background-color: #0069D8;
 }
 
 .statusBar {
@@ -114,9 +150,6 @@ th {
   text-align: right;
 }
 
-.appBar {
-  background-color: #385999;
-  height: 64px;
-  width: 360px;
+.yellow {
+  background-color: #FCC504;
 }
-
