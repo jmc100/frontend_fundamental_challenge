@@ -1,186 +1,182 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Bus Bus Route</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Busy Bus Routes</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="maincontainer">
     <!-- status bar -->
-  <nav class="statusBar">
-    <div>
-    <p class="time">12:30</p>
+    <nav class="statusBar">
+      <div>
+        <p class="time">12:30</p>
+      </div>
+      <div>
+        <!--   wifi -->
+        <img src="images/wifi.png" alt="wifi" class="icons wifi">
+      </div>
+      <div>
+        <div>
+          <!--   battery -->
+          <img src="images/battery.png" alt="battery" class="icons battery">
+        </div>
+      </nav>
+      <!-- app bar -->
+      <nav class="appBar">
+        <!--   hamburger menu icon-->
+        <img src="images/menu.png" alt="menu" class="icons_2 menu">
+        <!--   bus stop name -->
+        <h3>Washington & State</h3>
+        <!--   search icon -->
+        <img src="images/search.png" alt="search" class="icons_2 search">
+        <!--   more icon -->
+        <img src="images/more.png" alt="more" class="icons_2 more">
+      </nav>
+      <!-- Eastbound routes -->
+      <br>
+      <div class="header normal"> Eastbound </div>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">60</td>
+            <td>
+              To: <span class="destination"> Randolph/Habor Dr </span>
+              <br>
+              <br>
+              Arriving in 2 mins, &emsp;&emsp;<div class="circle red"></div>
+              <br>22 mins, and 42 mins
+            </td>
+            <td class="fare">$4.20</td>
+          </tr>
+        </table>
+      </section>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">124</td>
+            <td>
+              To: <span class="destination"> Navy Pier </span>
+              <br>
+              <br>
+              Arriving in 5 mins, &emsp;&emsp;<div class="circle red"></div>
+              <br>15 mins, and 25 mins
+            </td>
+            <td class="fare">$4.35</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Northbound routes -->
+      <div class="header normal"> Northbound </div>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">151</td>
+            <td>
+              To: <span class="destination"> Devon/Clark </span>
+              <br>
+              <br>
+              Arriving in 16 mins, &emsp;&emsp;<div class="circle green"></div>
+              <br>32 mins, and 48 mins
+            </td>
+            <td class="fare">$5.20</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Southbound routes -->
+      <div class="header normal"> Southbound </div>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">J14</td>
+            <td>
+              To: <span class="destination"> 103rd/Stony Island </span>
+              <br>
+              <br>
+              Arriving in 15 mins, &emsp;&emsp;<div class ="circle green"></div>
+              <br>30 mins, and 45 mins
+            </td>
+            <td class = "fare">$3.25</td>
+          </tr>
+        </table>
+      </section>
+      <section class="container">
+        <table>
+          <tr>
+            <td class ="square number">124</td>
+            <td>
+              To: <span class ="destination"> Navy Pier </span>
+              <br>
+              <br>
+              Arriving in 10 mins, &emsp;&emsp;<div class="circle yellow"></div>
+              <br>20 mins, and 30 mins
+            </td>
+            <td class="fare">$6.50</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Northbound routes -->
+      <div class="header reroute"> Reroute </div>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">6X</td>
+            <td>
+              To: <span class="destination"> Jackson Park Express </span>
+              <br>
+              <br>
+              Arrival time to be confirmed
+            </td>
+            <td class="fare">$4.50</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Out of service routes -->
+      <div class="header out"> Out of service </div>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">4</td>
+            <td>
+              To: <span class="destination"> Cottage Grove </span>
+              <br>
+              <br>
+              Resume at 12:10am
+            </td>
+            <td class="fare">$3.80</td>
+          </tr>
+        </table>
+      </section>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">20</td>
+            <td>
+              To: <span class="destination"> Madison </span>
+              <br>
+              <br>
+              Resume at 12:10am
+            </td>
+            <td class="fare">$4.25</td>
+          </tr>
+        </table>
+      </section>
+      <section class="container">
+        <table>
+          <tr>
+            <td class="square number">157</td>
+            <td>
+              To: <span class="destination"> Streetville/Taylor </span>
+              <br>
+              <br>
+              Resume at 6:00am
+            </td>
+            <td class="fare">$2.15</td>
+          </tr>
+        </table>
+      </section>
     </div>
-    <div>
-    <!--   wifi -->
-    <img src="images/wifi.png" alt="wifi" class="icons wifi">
-    </div>
-    <div>
-    <div>
-    <!--   battery -->
-    <img src="images/battery.png" alt="battery" class="icons battery">
-    </div>
-  </nav>
-
-  <!-- app bar -->
-  <nav class="appBar">
-    <!--   hamburger menu icon-->
-    <img src="images/menu.png" alt="menu" class="icons_2 menu">
-    <!--   bus stop name -->
-    <h3>Washington & State</h3>
-    <!--   search icon -->
-    <img src="images/search.png" alt="search" class="icons_2 search">
-    <!--   more icon -->
-    <img src="images/more.png" alt="more" class="icons_2 more">
-  </nav>
-
-  <!-- Eastbound routes -->
-  <br>
-  <div class="header normal"> Eastbound </div>
-  <section class="container">
-    <table>
-      <tr>
-        <td class="square number">60</td>
-        <td>
-          To: <span class="destination"> Randolph/Habor Dr </span>
-          <br>
-          <br>
-          Arriving in 2 mins, &emsp;&emsp;<div class="circle red"></div>
-          <br>22 mins, and 42 mins
-        </td>
-        <td class="fare">$4.20</td>
-      </tr>
-    </table>
-  </section>
-  <section class="container">
-    <table>
-      <tr>
-        <td class="square number">124</td>
-        <td>
-        To: <span class="destination"> Navy Pier </span>
-        <br>
-        <br>
-        Arriving in 5 mins, &emsp;&emsp;<div class="circle red"></div>
-        <br>15 mins, and 25 mins
-        </td>
-        <td class="fare">$4.35</td>
-      </tr>
-    </table>
-  </section>
-
-    <!-- Northbound routes -->
-    <div class="header normal"> Northbound </div>
-    <section class="container">
-      <table>
-        <tr>
-          <td class="square number">151</td>
-          <td>
-            To: <span class="destination"> Devon/Clark </span>
-            <br>
-            <br>
-            Arriving in 16 mins, &emsp;&emsp;<div class="circle green"></div>
-            <br>32 mins, and 48 mins
-          </td>
-          <td class="fare">$5.20</td>
-        </tr>
-      </table>
-    </section>
-
-    <!-- Southbound routes -->
-    <div class="header normal"> Southbound </div>
-    <section class="container">
-      <table>
-        <tr>
-          <td class="square number">J14</td>
-          <td>
-            To: <span class="destination"> 103rd/Stony Island </span>
-            <br>
-            <br>
-            Arriving in 15 mins, &emsp;&emsp;<div class ="circle green"></div>
-            <br>30 mins, and 45 mins
-          </td>
-          <td class = "fare">$3.25</td>
-        </tr>
-      </table>
-    </section>
-    <section class="container">
-      <table>
-        <tr>
-          <td class ="square number">124</td>
-          <td>
-            To: <span class ="destination"> Navy Pier </span>
-            <br>
-            <br>
-            Arriving in 10 mins, &emsp;&emsp;<div class="circle yellow"></div>
-            <br>20 mins, and 30 mins
-          </td>
-          <td class="fare">$6.50</td>
-        </tr>
-      </table>
-    </section>
-
-    <!-- Northbound routes -->
-    <div class="header reroute"> Reroute </div>
-    <section class="container">
-      <table>
-        <tr>
-          <td class="square number">6X</td>
-          <td>
-            To: <span class="destination"> Jackson Park Express </span>
-            <br>
-            <br>
-            Arrival time to be confirmed
-          </td>
-          <td class="fare">$4.50</td>
-        </tr>
-      </table>
-    </section>
-
-    <!-- Out of service routes -->
-    <div class="header out"> Out of service </div>
-    <section class="container">
-      <table>
-        <tr>
-          <td class="square number">4</td>
-          <td>
-            To: <span class="destination"> Cottage Grove </span>
-            <br>
-            <br>
-            Resume at 12:10am
-          </td>
-          <td class="fare">$3.80</td>
-        </tr>
-      </table>
-    </section>
-    <section class="container">
-      <table>
-        <tr>
-          <td class="square number">20</td>
-          <td>
-            To: <span class="destination"> Madison </span>
-            <br>
-            <br>
-            Resume at 12:10am
-          </td>
-          <td class="fare">$4.25</td>
-        </tr>
-      </table>
-    </section>
-    <section class="container">
-      <table>
-        <tr>
-          <td class="square number">157</td>
-          <td>
-            To: <span class="destination"> Streetville/Taylor </span>
-            <br>
-            <br>
-            Resume at 6:00am
-          </td>
-          <td class="fare">$2.15</td>
-        </tr>
-      </table>
-    </section>
   </body>
-</html>
+  </html>
