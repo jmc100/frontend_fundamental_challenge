@@ -107,6 +107,10 @@ th {
   text-transform: uppercase;
 }
 
+.maincontainer {
+  width: 360px;
+}
+
 .normal {
   background-color: #0069D8;
   color: #FFFFFF;
